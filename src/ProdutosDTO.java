@@ -9,19 +9,19 @@
  */
 public class ProdutosDTO {
     private Integer id;
-    private String nome;
-    private Integer valor;
+    private static String nome;
+    private static Integer valor;
     private String status;
 
     public Integer getId() {
         return id;
     }
 
-    public String getNome() {
+    public static String getNome() {
         return nome;
     }
 
-    public Integer getValor() {
+    public static Integer getValor() {
         return valor;
     }
 
